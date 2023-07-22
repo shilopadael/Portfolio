@@ -8,6 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
+  const CVPath = "/public/CV/Shilo_Padael_-_Computer_Science_Student.pdf";
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -96,6 +97,20 @@ const Contact = () => {
           >
             Contact on WhatsApp
           </a>
+          <motion.div
+                whileHover={{ backgroundColor: "#00A86B" }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-tertiary py-2 px-2 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl cursor-pointer"
+                style={{ cursor: "pointer" }}
+              >
+                <a
+                  href={CVPath}
+                  download="Shilo_Padael_CV.pdf"
+                  className="w-full h-full flex justify-center items-center"
+                >
+                  Download CV
+                </a>
+              </motion.div>
         </form>
       </motion.div>
 
