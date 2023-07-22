@@ -23,6 +23,14 @@ import {
     jobit,
     tripguide,
     threejs,
+    python,
+    android,
+    linux,
+    C,
+    java,
+    arknoid,
+    algorithem,
+    robot
   } from "../assets";
   
   export const navLinks = [
@@ -44,24 +52,67 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Programing Languages",
       icon: web,
+      items: [
+        {
+          star1: "Java",
+        },
+        {
+          star1: "C/C++",
+        },
+        {
+          star1: "Python",
+        },
+        {
+          star1: "React",
+        }
+      ]
     },
     {
-      title: "React Native Developer",
+      title: "Courses",
       icon: mobile,
+      items: [
+        {
+          star1: "Data Structures",
+        },
+        {
+          star1: "Algorithms",
+        },
+        {
+          star1: "OOP",
+        },
+        {
+          star1: "Design Patterns",
+        },
+        {
+          star1: "Operating Systems",
+        },
+        {
+          star1: "Data Base",
+        }]
     },
     {
-      title: "Backend Developer",
+      title: "Valounteering",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+      items: [
+        {
+          star1: `"Simcha layeled"- supporting children with special needs and their families"`,
+        },
+        {
+          star1: `"Perach" - Tutorial Project for children from low socio-economic backgrounds`,
+        }
+      ]
+    }
   ];
+
+    
   
   const technologies = [
+    {
+      name: "java",
+      icon: java,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -75,20 +126,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
     },
     {
       name: "Node JS",
@@ -99,21 +138,25 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "linux",
+      icon: linux,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "C",
+      icon: C,
     },
+    {
+      name: "python",
+      icon: python,
+    },
+    {
+      name: "android",
+      icon: android,
+    }
   ];
   
   const experiences = [
@@ -200,67 +243,71 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Arknoid Game",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Arknoid Game is a classic brick-breaking video game where players control a paddle to bounce a ball and destroy bricks.",
       tags: [
         {
-          name: "react",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "OOP",
           color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
+        }
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: arknoid,
+      source_code_link: "https://github.com/shilopadael/Arkanoid-Game/tree/main",
     },
     {
-      name: "Job IT",
+      name: "Vector Classification System",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The project aims to classify vectors using a K-nearest neighbors (Knn) algorithm based on trained data vectors uploaded by clients. The server side handles all calculations and classifications using the client's input files.",
       tags: [
         {
-          name: "react",
+          name: "C++",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Multithreding",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Socket",
           color: "pink-text-gradient",
         },
+        {
+          name: "design patterns",
+          color: "blue-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: algorithem,
+      source_code_link: "https://github.com/shilopadael/KNN-Server-Classification",
     },
     {
-      name: "Trip Guide",
+      name: "Robot Navigation Workshop",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The project aims to develop an autonomous robot navigation system using the Player/Stage platform and integrating OMPL algorithms. It involves perception, mapping, path planning, and control components to enable a mobile robot to navigate its environment efficiently and safely.",
       tags: [
         {
-          name: "nextjs",
+          name: "C++",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Player/Stage",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Design Patterns",
           color: "pink-text-gradient",
         },
+        {
+          name: "Algorithm",
+          color: "orange-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: robot,
+      source_code_link: "https://github.com/shilopadael/Robot-Navigation-Workshop",
     },
   ];
   
