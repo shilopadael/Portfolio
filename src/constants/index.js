@@ -97,7 +97,7 @@ import {
       icon: backend,
       items: [
         {
-          star1: `"Simcha layeled"- supporting children with special needs and their families"`,
+          star1: `"Simcha layeled"- supporting children with special needs and their families`,
         },
         {
           star1: `"Perach" - Tutorial Project for children from low socio-economic backgrounds`,

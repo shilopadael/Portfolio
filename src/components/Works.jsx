@@ -61,7 +61,6 @@ const ProjectsCard = ({
               #{tag.name}
             </p>
           ))}
-
         </div>
       </Tilt>
     </motion.div>
@@ -82,11 +81,13 @@ const Works = () => {
           className="mt-3 text-seconsary text-[17px] 
           max-w-3xl leading-[30px]"
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          The following projects showcase my skills and experience acquired
+          throughout my studies at the university. Each project is briefly
+          described, and I have provided links to code repositories and live
+          demos for easy access. These projects serve as a testament to my
+          ability to tackle complex problems, adeptly work with various
+          technologies, and effectively manage projects throughout my academic
+          journey.
         </motion.p>
       </div>
 
